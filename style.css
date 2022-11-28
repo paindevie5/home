@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300;400&display=swap');
+*{
+                              padding: 0%;
+                              margin: 0%;
+}
+/* Color Theme Swatches in Hex */
+.Ligth-wood-texture-for-background-1-hex { color: #D9BB84; }
+.Ligth-wood-texture-for-background-2-hex { color: #A67841; }
+.Ligth-wood-texture-for-background-3-hex { color: #BF9969; }
+.Ligth-wood-texture-for-background-4-hex { color: #D9C6B0; }
+.Ligth-wood-texture-for-background-5-hex { color: #8C694A; }
+body{
+                              background-color: #D9C6B0;
+                              color: #705028;
+                              height: 120vh;
+                              font-family: 'Ubuntu',sans-serif;
+                              
+}
+nav{
+                              display: flex;
+                              justify-content: space-between;
+                              align-items: center;
+                              height: 10vh;
+                              background-color: #D9BB84;
+                              padding-left: 6vw;
+                              padding-right: 6vw;
+}
+.logo{
+                              font-size: 2,5rem;
+                              font-family:'Indie Flower';
+}
+.menu{
+                              height: 40px;
+                              width: 40px;
+                              border-radius: 50%;
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+}
+.menu:hover{
+                              background-color: rgba(0,0,0,0.2);
+}
+.menu:hover .barra-lateral{
+                              display: block;
+}
+#idmenu{
+                              height: 25px;
+                              width: 25px;
+}
+.barra-lateral{
+                              height: 100vh;
+                              width: 60vw;
+                              background-color: rgba(0,0,0,0.9);
+                              position: absolute;
+                              top: 10vh;
+                              right: 0%;
+                              padding: 25px;
+                              display: none;
+}
+.ul-barra{
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: center;
+                              align-items: center;
+}
+.li-barra{
+                              list-style-type: none;
+                              margin-bottom: 100px;
+                              
+}
+a{
+                              text-decoration: none;
+                              color: #eeb063;
+}
+a:hover{
+                              color: #ff8c00;
+}
+main{
+                              margin: 20px;
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: center;
+                              text-align: center;
+}
+.h2{
+                              color: #55350e;
+                              margin-top: 20px;
+}
+.h3{
+                              margin-top: 10px;
+                              margin-bottom: 10px;
+}
+.h3s{
+                              border: #ff8c00 2px solid;
+                              border-radius: 30px;
+
+}
+::-webkit-scrollbar-track{
+   background-color: #D9BB84;
+}
+::-webkit-scrollbar{
+   width: 14px;
+   background-color: #D9BB84;
+   padding-left: 2px;
+   padding-right: 2px;
+}
+::-webkit-scrollbar-thumb{
+   background-color: #BF9969;
+}
